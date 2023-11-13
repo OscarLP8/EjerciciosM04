@@ -1,0 +1,13 @@
+h1{
+    color: rgb(165, 42, 69);
+}
+p, li {
+    color: green;
+  }
+li{
+    list-style-type: upper-roman;
+}
+.specialASIX {
+    color: orange;
+    font-weight: bold;
+  }

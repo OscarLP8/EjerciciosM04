@@ -1,0 +1,11 @@
+.button:hover{
+    background-color: darkgoldenrod;
+    border: 2px solid blue;
+    text-align: center;
+    transition-duration:0.4ms;
+    cursor: pointer;
+
+}
+td:hover{
+    transition: 2s;
+}

@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    background-color: rgb(199, 15, 15);
+}
+th{
+    text-align: center;
+    background-color: blueviolet;
+}
+td{
+    text-align: center;
+    background-color: yellowgreen;
+}
+a:link{
+    color: black;
+}
+.colorines{
+    color: black;
+    background-color: yellow;
+}
+
+.colorines2{
+    background-color: black;
+}
+.colorines3{
+    background-color: cornflowerblue;
+}
+.colorines4{
+    background-color: grey;
+}
+
+p{
+    background-color: violet;
+}
+table{
+    margin: auto;
+    max-width: fit-content;
+}
+body{
+    
+}

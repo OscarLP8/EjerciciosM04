@@ -1,0 +1,28 @@
+.color1{
+    background-color: aqua;
+}
+.color2{
+    background-color: pink;
+}
+.color3{
+    background-color: yellow;
+}
+.color4{
+    background-color: green;
+}
+.color5{
+    background-color: gray;
+}
+.color6{
+    background-color: orange;
+}
+.color7{
+    background-color: rgba(255, 0, 0, 0.849);
+}
+.color8{
+    background-color: rgb(59, 59, 59);
+}
+legend{
+    text-decoration-line: underline;
+    font-weight: bold;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="colores.css">
+    <title>Document</title>
+    <style>
+      </br>
+    </style>
+</head>
+<body>
+    <fieldset class="color1">
+        <legend >DADES PERSONALS</legend>
+        <p>Edat*<br><input type="number" name="edad" required></p>
+        <p>Email<br><input type="email" name="Email" size="40"></p>
+        <p>Contrasenya*<br><input type="text"name="Inseriur contrasenya" size="40" required></p>
+        <p>Data de naixement<br><input type="date"name="dd/mm/aaaa"></p>
+      </fieldset>
+      
+      <fieldset class="color2">
+        <legend>Moduls a evaluar</legend>
+        <select name="menu">
+            <option value="0"> Seleccioneu</option>
+            <option value="1">M01</option>
+            <option value="2">M02</option>
+            <option value="3">M03</option>
+            <option value="4">M04</option>
+            <option value="5">M05</option>
+          </select>
+      </fieldset>
+
+      <fieldset class="color3">
+        <legend>Cicle</legend>
+        <input type="radio" name="p1" value="1">
+        <label for="radio">ASIX</label> 
+        <input type="radio" name="p1" value="2"> 
+        <label for="radio">DAM</label>
+        <input type="radio" name="p1" value="3"> 
+        <label for="radio">DAW</label>
+        <input type="radio" name="p1" value="4"> 
+        <label for="radio">BIOINFORMÀTICA</label>
+      </p>
+      </fieldset>
+      <fieldset class="color4">
+        <legend>Professor a evaluar</legend>
+        <p >Nom Professor*<br><input type="text" size="40" placeholder="Nom del profesor"></p>
+        <p>Grau de satisfaccio del 0 al 10<br> <input type="range" id="vol" name="vol" min="0" max="10"></p>
+        <p>Comentaris<br><textarea rows="4" cols="40" placeholder="Inseriu el comentaris"> </textarea></p>
+      </fieldset>
+      <fieldset class="color5">
+        <legend>Explica alguna cosa sobre tu</legend>
+        <p >Ets repetidor?<br><input type="checkbox">Si <input type="checkbox">No</p>
+        <p>Dirección Web<br> <input type="url"></p>
+        <p>Situació actual<br><input type="text"></p>
+        <input type="file">
+      </fieldset>
+      <fieldset class="color6">
+        <legend>CURSOS EXTRES</legend>
+        <input type="checkbox" name="p1" value="1"> Cloud Computing
+        <input type="checkbox" name="p1" value="2"> Big data
+        <input type="checkbox" name="p1" value="3"> Unity 5
+      </p>
+      </fieldset>
+      <fieldset class="color7">
+        <legend> Data Enquesta</legend>
+        Fecha<input type="date"name="dd/mm/aaaa">
+        Hora<input type="time" id="appt" name="appt">
+      </fieldset>
+      <fieldset class="color8">
+        <legend></legend>
+        <input type="button" name="send" value="Envia"> 
+        <input type="button" name="erase" value="Esborra">
+        <input type="button" name="exit" value="Surt">
+      </p>
+      </fieldset>
+
+</body>
+</html>

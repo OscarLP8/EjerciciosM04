@@ -1,0 +1,59 @@
+body{
+    background-repeat: repeat-x;
+    position: center;
+    background-image: url(//www2.proven.cat/intraweb/images/stories/slider/Provencana.jpeg);
+}
+h1{
+    background-color: blue;
+    text-align: center;
+    color: red;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td, tr{
+    border: 1px solid;
+    background-color: rgb(131, 160, 28);
+}
+a:link, a:visited{
+    
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+} 
+a:hover, a:active {
+    background-color: blue;
+}
+th{
+    background-color: red;
+}
+tr{
+    background-color: blueviolet;
+}
+.colour{
+    background-color: red;
+}
+.colour1{
+    background-color: rgb(0, 0, 0);
+}
+.colour2{
+    background-color: rgb(120, 221, 4);
+}
+.colour3{
+    background-color: rgb(34, 203, 245);
+}
+.colour4{
+    background-color: rgb(240, 21, 229);
+}
+.colour6{
+    background-color: rgb(222, 247, 5);
+}
+.colour7{
+    background-color: rgb(218, 92, 8);
+}
+.colour8{
+    background-color: rgb(1, 150, 68);
+}
